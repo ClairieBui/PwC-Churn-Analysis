@@ -53,17 +53,17 @@ This structure relies on a single fact table (Churn) combined with calculated me
 ![image](https://github.com/user-attachments/assets/a4539cb0-3e6a-4827-8404-0d78aae084a1)
 - Churn Rate & Customers at Risk: The overall churn rate is 26.54%, with 1,869 customers at risk of leaving. High churn indicates potential service or pricing issues that need addressing.
 - Contract Type & Churn Risk: 55.02% of customers are on month-to-month contracts, which are more prone to churn. Customers with one-year and two-year contracts show lower churn rates, suggesting that longer-term contracts improve retention.
-- Payment Methods & Churn Risk: Electronic check users (30.85%) have the highest churn risk, potentially due to payment inconvenience or financial instability.
+- Payment Methods & Churn Risk: Electronic check users (33.58%) have the highest churn risk, potentially due to payment inconvenience or financial instability.
 Customers using automated bank transfers or credit card payments have lower churn, indicating that automatic payments contribute to customer retention.
 Internet Service Type & Churn
-- Fiber-optic users (43.69%) have the highest share of internet service users. The churn risk for fiber-optic customers may be linked to service quality or pricing issues, requiring further investigation.
+- Fiber-optic users (43.96%) have the highest share of internet service users. The churn risk for fiber-optic customers may be linked to service quality or pricing issues, requiring further investigation.
 - Tenure & Churn Risk: 31.04% of customers are in their first year, the highest percentage among tenure groups. Churn rates are typically highest among first-year customers, emphasizing the need for better onboarding and early retention strategies.
 - Paperless Billing: 59% of customers use paperless billing, but 41% still opt for paper bills.
 Encouraging more customers to switch to paperless billing may improve engagement and reduce churn.
 2. Analysis dashboard
 ![image](https://github.com/user-attachments/assets/b9ab18a4-4f06-4d8b-ba6a-20b3d93c9dcb)
 
-- High Churn Risk for Month-to-Month Contracts: Customers on month-to-month contracts have the highest churn rate (41.71%), significantly higher than two-year (2.83%) and one-year (11.27%) contracts. This suggests that customers with short-term commitments are more likely to leave, likely due to pricing flexibility or dissatisfaction.
+- High Churn Risk for Month-to-Month Contracts: Customers on month-to-month contracts have the highest churn rate (42.71%), significantly higher than two-year (2.83%) and one-year (11.27%) contracts. This suggests that customers with short-term commitments are more likely to leave, likely due to pricing flexibility or dissatisfaction.
 Internet Service Impact on Churn
 - Fiber-optic users have the highest churn rate (41.89%), while DSL and other services show lower churn (18.6% and 7.4%, respectively). This may indicate issues with service quality, pricing, or competition in fiber-optic offerings.
 - Payment Method Correlation with Churn: Electronic check payments are associated with the highest churn rate, indicating that customers using this method may have a weaker commitment or financial instability.
@@ -72,7 +72,16 @@ Internet Service Impact on Churn
 - Admin Tickets and Churn: Customers with more administrative support tickets have a higher churn risk, suggesting dissatisfaction with service. Improving customer support could help reduce churn.
 
 ## 📌 **Conclusion & Recommendations**
-To reduce churn, businesses should:
+**Conclusions**
+- Customers with month-to-month contracts and those paying via electronic checks are more likely to churn.
+- Fiber-optic service users show higher churn rates, possibly due to service quality concerns or pricing issues.
+- Customers in their first year have the highest churn, emphasizing the need for strong onboarding and early retention efforts.
+- Engagement with Multiple Services: 45.48% of customers subscribe to multiple services, reflecting strong interest in bundled offerings.
+- Balanced Gender Distribution: Adoption of services is nearly evenly split between genders, indicating no significant preference based on gender.
+- Contract Preferences & Churn Risk: Month-to-month contracts make up 88.5% of subscriptions, highlighting customer preference for flexibility but also posing a higher churn risk.
+- Payment Methods & Churn Correlation: Electronic checks are the most frequently used payment method but are also associated with higher churn rates.
+
+**Recommendations**
 - Targeted Retention for Month-to-Month Customers: Offer discounts or loyalty programs to encourage longer contract commitments.
 - Improve Onboarding for First-Year Customers: Provide personalized support and engagement strategies to reduce early churn.
 - Address Fiber-Optic Service Issues: Investigate and resolve potential service quality or pricing concerns.
