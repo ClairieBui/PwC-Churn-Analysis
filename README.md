@@ -46,11 +46,15 @@ Calculated Measure Tables:
 
 ## 📐 **Data Modeling**
 This structure relies on a single fact table (Churn) combined with calculated measure tables. This approach enhances data analysis by precomputing key insights, making it easier to track customer churn patterns and service engagement.
-![image](https://github.com/user-attachments/assets/fae9614f-c79e-450d-a6ac-0dcf69bd1b6e)
+
+![image](https://github.com/user-attachments/assets/631f8173-ac6e-46b8-88d4-354a524fbfd7)
+
 
 ## 📈 **Analysis & Visualizations**
 1. Overview dashboard
-![image](https://github.com/user-attachments/assets/a4539cb0-3e6a-4827-8404-0d78aae084a1)
+![image](https://github.com/user-attachments/assets/719bb1a1-4234-4fc6-a6cb-7830e73c0f6b)
+
+
 - Churn Rate & Customers at Risk: The overall churn rate is 26.54%, with 1,869 customers at risk of leaving. High churn indicates potential service or pricing issues that need addressing.
 - Contract Type & Churn Risk: 55.02% of customers are on month-to-month contracts, which are more prone to churn. Customers with one-year and two-year contracts show lower churn rates, suggesting that longer-term contracts improve retention.
 - Payment Methods & Churn Risk: Electronic check users (33.58%) have the highest churn risk, potentially due to payment inconvenience or financial instability.
